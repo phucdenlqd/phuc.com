@@ -1,0 +1,23 @@
+/*font-sze html:10px, body:14px*/
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+ul#menu{
+	list-style-type: none;
+}
+
+#navigation{
+	display: inline-flex; 
+	font-size: 1.95rem;
+}
+/*canh duoi*/
+#navigation>*{
+	width: 100vw;
+	align-self: flex-end;
+}
+
+#top-nav>ul>li>a{
+	color: #000;
+}
+
